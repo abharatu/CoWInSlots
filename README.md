@@ -11,7 +11,7 @@ Mac OS Platform
    - ```pip install pync```
 
 ## Steps:
-1. Make sure the above dependencies are installed by Terminal
+1. Make sure the above dependencies are installed via Terminal
 2. clone the project using ```git clone  https://github.com/abharatu/CoWInSlots.git```
 3. type ```cd CoWInSlots```
 4. and then type ```./run.sh```
