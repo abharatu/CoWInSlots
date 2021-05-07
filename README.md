@@ -1,6 +1,8 @@
 # CoWInSlots
 CoWInSlots (Mac Only)
 
+I have created a script to check for slots and notify user via mac notification center. To run the script you would need to have basic understanding of Terminal App in Mac.
+
 ## Dependencies:
 Mac OS Platform
 1. brew:
