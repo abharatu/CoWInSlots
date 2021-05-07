@@ -3,11 +3,11 @@ CoWInSlots (Mac Only)
 
 ## Dependencies:
 Mac OS Platform
-brew:
+1. brew:
    - You would need brew to install python3 if you dont have it already.
-Python3:
+2. Python3:
    - ```brew install python3```
-pync:
+3. pync:
    - ```pip install pync```
 
 ## Steps:
