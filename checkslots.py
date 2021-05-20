@@ -54,11 +54,12 @@ try:
                 if session['min_age_limit'] == 18 and session["available_capacity"]>0:
                     print("-------Start-------")
                     text="Pincode:"+str(center['pincode'])+" Date:"+session["date"]+"\nvaccine:"+session["vaccine"]
+                    text+="\nAvailable Does1: "+str(session["available_capacity_dose1"])
+                    text+="\nAvailable Does2: "+str(session["available_capacity_dose2"])
                     title="CoWin: "+str(session["available_capacity"])+" slots available in "+center['name']
                     print(title+"\n"+text)
                     print("-------End-------")
                     Notifier.notify(text,title=title,group="CoWin",sound='Ping', open='https://selfregistration.cowin.gov.in/')
-                    quit()
     if gotdata == True:
         print(bcolors.OKGREEN + "Checking on: " + bcolors.WARNING +str(today) + bcolors.ENDC)
     else:
